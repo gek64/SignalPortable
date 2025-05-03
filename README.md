@@ -9,8 +9,12 @@ All downloads available in the [Releases](https://github.com/gek64/SignalPortabl
 * Clean up the registry and other files after exiting.
 * Easily uninstall, clean and reset.
 
+## Start with system proxy
+* Signal does not currently automatically use the system proxy. If you want to start Signal with system proxy, download this [file](https://github.com/gek64/SignalPortable/raw/refs/heads/main/Start%20signal%20with%20system%20proxy.bat) and put it together with SignalPortable.exe, then use this .bat file to start Signal Portable.
+
+
 ## System Requirements
-* Microsoft Windows
+* Microsoft Windows x64
 
 ## Credits
 * [Signal-Desktop](https://github.com/signalapp/Signal-Desktop)
