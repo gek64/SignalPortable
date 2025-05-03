@@ -13,10 +13,10 @@ All downloads available in the [Releases](https://github.com/gek64/SignalPortabl
 * Microsoft Windows
 
 ## Credits
-* [Signal-Desktop](https://github.com/signalapp/)
+* [Signal-Desktop](https://github.com/signalapp/Signal-Desktop)
 * [PortableApps.com Launcher](https://portableapps.com/apps/development/portableapps.com_launcher)
 * [PortableApps.com Installer](https://portableapps.com/apps/development/portableapps.com_installer)
 
 ## License
 * Portable application code released under [the MIT license](https://github.com/gek64/SignalPortable/raw/main/LICENSE).
-* The Signal-Desktop [license](https://github.com/signalapp/Signal-Desktop/raw/main/LICENSE).
+* Signal-Desktop [license](https://github.com/signalapp/Signal-Desktop/raw/main/LICENSE).
