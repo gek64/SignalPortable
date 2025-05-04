@@ -3,11 +3,22 @@
 @REM utf8
 chcp 65001
 
-@REM root location
-set base=%~dp0
-cd /d %base%
+@REM bat root location
+set BATROOT=%~dp0
+cd /d %BATROOT%
 
-@REM proxy
+@REM app root location
+if exist App (
+    set APPROOT=%BATROOT%
+) else if exist ../App (
+    for %%I in (.) do set APPROOT=%%~dpI
+) else (
+    echo APP root not found
+    pause
+    exit 0
+)
+
+@REM set system proxy
 set proxy=""
 for /f "tokens=3" %%i in ('reg query "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v "ProxyServer"') do (
     set proxy=%%i
@@ -19,4 +30,4 @@ if %proxy%=="" (
     set https_proxy=http://%proxy%
 )
 
-start SignalPortable.exe
+start %APPROOT%SignalPortable
