@@ -1,19 +1,20 @@
 # Signal Portable
-Signal Portable is a portable version of the [Signal](https://signal.org).
+Signal Portable is a portable version of the [Signal](https://signal.org)
 
 ## Download
-All downloads available in the [Releases](https://github.com/gek64/SignalPortable/releases).
+All downloads available in the [Releases](https://github.com/gek64/SignalPortable/releases)
 
 ## Features
-* Run the full Signal application.
-* Clean up the registry and other files after exiting.
-* Easily uninstall, clean and reset.
+* Run the full Signal application
+* Clean up the registry and other files after exiting
+* Easily uninstall, clean and reset
 
-## Start with system proxy
-* Signal does not currently automatically use the system proxy. If you want to start Signal with system proxy, download [Start signal with system proxy.bat](https://github.com/gek64/SignalPortable/raw/refs/heads/main/Start%20signal%20with%20system%20proxy.bat) and put it together with SignalPortable.exe, then use `Start signal with system proxy.bat` to start Signal Portable.
+### Start with system proxy
+* Signal does not currently automatically use the system proxy
+* If you want to start Signal with system proxy, run `Other\start_with_system_proxy.bat`
 
-## Auto Start
-* Do not use the auto start feature in Signal, download [Auto start enable.bat](https://github.com/gek64/SignalPortable/raw/refs/heads/main/Auto%20start%20enable.bat) [Auto start disable.bat](https://github.com/gek64/SignalPortable/raw/refs/heads/main/Auto%20start%20disable.bat) and put them together with SignalPortable.exe, run `Auto start enable.bat` or `Auto start enable.bat` if needed.
+### Auto Start
+* **DO NOT** use the auto start feature in Signal, run `Other\auto_start_enable.bat` or `Other\auto_start_disable.bat` if needed
 
 ## System Requirements
 * Microsoft Windows x64
